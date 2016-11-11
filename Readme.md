@@ -1,0 +1,2 @@
+# A Weather Web Application
+Developed a Web Application which consumes 2 web services: Google Maps and Geonames. Google Maps is used to show the Map and get the current address when clicked. A map marker is shown when clicked anywhere on map, the overlay infowindow above marker shows the current address and weather details.
