@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!-- 
+     Student Name: Kulkarni Aaditya Arvind 
+     UTA ID: 1001238152
+     Project Name: Web Mashup: Display House Address on a Map with Weather details
+     Project No.: 2
+     Project due date: 10/26/2016 
+-->
+
+<html lang="en">
+  <head>
+    <title>Web Mashup: Display Address with Weather Details</title>
+    <meta charset="utf-8" />
+    <script type="text/javascript" src="webmash.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyApeuZagCfIb8RARSsVAdb389bw8W4nhgk" type="text/javascript"></script>
+    <link rel="stylesheet" href="webmash.css">
+  </head>
+
+  <body onload="initialize();">
+    <div id="clearbuttondiv">
+      <button id="clear" onclick="clearOutput();">Clear History</button><br>
+    </div>
+    <div id="maparea">
+      <h1>Map </h1>
+      <div id="map" class="shadow"></div>
+    </div>
+    <div id="history">
+      <h1>History</h1>
+      <ol id="output" class="shadow"></ol>
+    </div>
+  </body>
+</html>
